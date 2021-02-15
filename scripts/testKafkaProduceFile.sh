@@ -1,0 +1,1 @@
+sh ${KAFKA_HOME}/bin/kafka-console-producer.sh --broker-list $1 --sync --timeout 10000 --request-timeout-ms 10000 --topic activities < ${KAFKA_HOME}/${2}.json

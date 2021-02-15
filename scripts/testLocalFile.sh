@@ -1,0 +1,1 @@
+sh testKafkaProduceFile.sh "localhost:9092" ${1}

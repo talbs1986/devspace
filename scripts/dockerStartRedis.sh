@@ -1,0 +1,1 @@
+docker run --name redis --restart=always -it -d -v ${WS_PATH}/docker/redis/data:/data -p 6379:6379 redis:5.0 redis-server --appendonly yes

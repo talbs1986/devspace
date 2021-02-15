@@ -1,0 +1,36 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 1,
+    "explorer.openEditors.visible": 0,
+    "[go]": {},
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "window.openFoldersInNewWindow": "on",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "[python]": {
+        
+    },
+    "maven.executable.path": "/Users/talbenshabtay/Desktop/workspace/apache-maven-3.6.3/bin/",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": false,
+        "source.organizeImports": true
+    },
+    "java.requirements.JDK11Warning": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.semanticHighlighting.enabled": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    "go.alternateTools": {
+    },
+    "explorer.confirmDragAndDrop": false,
+    "sync.gist": "vscodesettings",
+}
