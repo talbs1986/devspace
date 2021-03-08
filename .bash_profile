@@ -11,8 +11,8 @@ export GO111MODULE=on
 # export GOPRIVATE=
 PATH=$PATH:$SCRIPTS_PATH:$TOOLS_PATH/google-cloud-sdk/bin:$GOPATH/bin:$MAVEN_HOME/bin
 
-#GIT COLORS
-source /usr/local/git/contrib/completion/git-completion.bash
-source /usr/local/git/contrib/completion/git-prompt.sh
+#GIT Completion and branch name
+source $TOOLS_PATH/git/git-completion.bash
+source $TOOLS_PATH/git/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='[\u@mbp \w$(__git_ps1)]\$ '
