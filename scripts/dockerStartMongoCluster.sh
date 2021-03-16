@@ -1,1 +1,1 @@
-docker run --hostname mongo --name mongo -it -d -p 27017:27017 -p 27018:27018 -p 27019:27019 -v ${WS_PATH}/docker/mongo/cluster/data:/data -e "REPLICA_SET_NAME=rs0" --restart=always mongo-cluster
+docker run --hostname mongo --name mongo -it -d -p 27017:27017 -p 27018:27018 -p 27019:27019 -v ${WS_PATH}/docker/mongo/data:/data -e "REPLICA_SET_NAME=rs0" --restart=always mongo_cluster
